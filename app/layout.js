@@ -1,4 +1,6 @@
 import '../styles/globals.css'
+import Navbar from './navbar'
+import Footer from './footer'
 
 export default function Layout({ children }) {
   return (
@@ -7,7 +9,9 @@ export default function Layout({ children }) {
         <title>Next.js</title>
       </head>
       <body>
-        {children}
+        <Navbar />
+          {children}
+        <Footer />
       </body>
     </html>)
 }
