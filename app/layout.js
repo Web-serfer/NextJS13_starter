@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import Navbar from './navbar'
-import Footer from './footer'
+import Footer from './Footer'
 
 export default function Layout({ children }) {
   return (
